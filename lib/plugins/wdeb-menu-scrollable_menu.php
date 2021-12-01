@@ -71,7 +71,7 @@ function wdeb_menu_make_scrollable () {
 	;
 }
 $(window)
-	.load(wdeb_menu_make_scrollable)
+	.on("load", wdeb_menu_make_scrollable)
 	.resize(function () {
 		// Reset scrolling first
 		$("#primary_left").off("mouseenter").off("mouseleave");

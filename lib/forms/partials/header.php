@@ -217,7 +217,7 @@ $(function () {
 
 /* ----- Videos bugfix ----- */
 <?php if (class_exists('WPMUDEV_Videos')) { ?>
-$(window).load(function () {
+$(window).on("load", function () {
 	$('.contextual-help-tabs-wrap [id*="wpmudev_vids"]').css({
 		"height": $(window).height() + "px",
 		"overflow-y": "scroll"

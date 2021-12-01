@@ -33,7 +33,7 @@ class Wdeb_Themes_AllowCustomizer {
 	}
 
 	function script_init () {
-		echo '$(window).load(function () {
+		echo '$(window).on("load", function () {
 			$(".hide-if-no-customize").show();
 			$(".hide-if-customize").hide();
 		});';
