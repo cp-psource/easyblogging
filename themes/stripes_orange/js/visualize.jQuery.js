@@ -57,7 +57,7 @@ $.fn.visualize = function(options, container){
 						});
 					}
 					else {
-						var cols = self.find('tr:eq(1) td').filter(o.colFilter).size();
+						var cols = self.find('tr:eq(1) td').filter(o.colFilter).length;
 						for(var i=0; i<cols; i++){
 							dataGroups[i] = {};
 							dataGroups[i].points = [];
