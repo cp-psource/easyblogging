@@ -63,8 +63,7 @@ jQuery(document).ready(function() {
 		jQuery(this).css('cursor','auto');
 	}); // Close notifications
 			
-	jQuery('.checkall').click(
-		function(){
+	jQuery('.checkall').on("click", function(){
 			jQuery(this).parent().parent().parent().parent().find("input[type='checkbox']").attr('checked', jQuery(this).is(':checked'));   
 		}
 	); // Top checkbox in a table will select all other checkboxes in a specified column
