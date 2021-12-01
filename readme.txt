@@ -34,8 +34,8 @@ Online Geld verdienen macht dieses mächtige Leichtgewicht von eCommerce Plugin 
 
 [Projektseite](https://n3rds.work/piestingtal_source/easy-blogging-plugin/)
 [Handbuch](https://n3rds.work/docs/easy-blogging-handbuch/)
-[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/psecommerce-supportforum/)
-[GitHub](https://github.com/piestingtal-source/psecommerce)
+[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/easyblogging-supportforum/)
+[GitHub](https://github.com/piestingtal-source/easyblogging)
 
 == Mehr PSOURCE ==
 
@@ -58,12 +58,6 @@ Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktion
 
 Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
-== Entwickler ==
-
-PSeCommerce ist eine OpenSource Community-Software, beruhend auf dem Quellcode von MarketPress, welchem auch WooCommerce zugrunde liegt. 
-PSeCommerce wird von seiner Communty weiterentwickelt, auch Du kannst Dich z.B. auf GitHub gerne Beteiligen, besuche Doch einfach einmal unser [PSeCommerce Projektboard](https://github.com/piestingtal-source/psecommerce/projects). 
-Ob es gefundene Fehler sind, Idee, Verbesserungsvorschläge, Dein persönliches Theme, welches Du teilen möchtest, Du bist uns sicher Willkommen.
-Mehr Details auf der [Projektseite](https://n3rds.work/piestingtal_source/psecommerce-shopsystem/).
 
 == ChangeLog ==
 
