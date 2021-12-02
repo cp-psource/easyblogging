@@ -9,7 +9,8 @@ class Wdeb_AdminFormRenderer {
 
 	function _create_checkbox ($name, $pfx='wdeb') {
 		$opt = $this->_get_option($name, $pfx);
-		$value = @$opt[$name];
+		//$value = @$opt[$name]; //PhP8 Fix
+		$value = $this->$opt[$name] = array();
 		return
 			"<input type='radio' name='{$pfx}[{$name}]' id='{$name}-yes' value='1' " . ((int)$value ? 'checked="checked" ' : '') . " /> " .
 				"<label for='{$name}-yes'>" . __('Ja', 'wdeb') . "</label>" .

@@ -62,4 +62,8 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 == ChangeLog ==
 
 = 1.0.0 =
+
+* PhP8 Fix Admin Einstellungen
+
+= 1.0.0 =
 * Initial release
