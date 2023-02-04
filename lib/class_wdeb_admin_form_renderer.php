@@ -73,7 +73,7 @@ class Wdeb_AdminFormRenderer {
 
 	function create_admin_bar_box () {
 		echo $this->_create_checkbox('admin_bar');
-		_e('<p>Zeige die WordPress-Admin-Leiste im einfachen Modus an.</p>', 'wdeb');
+		_e('<p>Zeige die ClassicPress-Admin-Leiste im einfachen Modus an.</p>', 'wdeb');
 	}
 
 	function create_screen_options_box () {

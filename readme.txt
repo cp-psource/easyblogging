@@ -9,18 +9,18 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Ändert den Wordpress-Verwaltungsbereich so, dass er standardmäßig einen "Anfänger" -Bereich enthält, mit der Option, zum normalen "Erweitert" -Bereich zu wechseln.
+Ändert den ClassicPress-Verwaltungsbereich so, dass er standardmäßig einen "Anfänger" -Bereich enthält, mit der Option, zum normalen "Erweitert" -Bereich zu wechseln.
 
 == Description ==
 
-Passe das Benutzererlebnis des WordPress-Dashboards mit Easy Blogging an und vereinfache es.
+Passe das Benutzererlebnis des ClassicPress-Dashboards mit Easy Blogging an und vereinfache es.
 
-Füge nur notwendige WordPress-Funktionen mit einfachen Umschaltelementen hinzu.
+Füge nur notwendige ClassicPress-Funktionen mit einfachen Umschaltelementen hinzu.
 Wähle eines von vier Themen mit optionalen kleinen Symbolen und einem benutzerdefinierten Easy Blogging-Logo. 
 Stelle das perfekte Dashboard für Deine einfachsten Benutzer ein.
 
 Einfacher Modus
-Gib Deinen Benutzern eine Ein-Klick-Vereinfachung des WordPress-Dashboards. 
+Gib Deinen Benutzern eine Ein-Klick-Vereinfachung des ClassicPress-Dashboards. 
 Aktiviere den einfachen Modus, um auf die Assistentenanleitung, ein vereinfachtes Dashboard, QuickInfos und ein benutzerdefiniertes Dashboard-Widget zuzugreifen.
 
 Mehr Geld verdienen
@@ -43,7 +43,7 @@ Online Geld verdienen macht dieses mächtige Leichtgewicht von eCommerce Plugin 
 
 Mit unserem [A/B Test Plugin](https://n3rds.work/piestingtal_source/a-b-test-plugin/) holst Du mehr aus Deinem SEO.
 
-Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategorien/psource-plugins/) und hole noch mehr aus Deinem WordPress/ClassicPress!
+Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategorien/psource-plugins/) und hole noch mehr aus Deinem ClassicPress/ClassicPress!
 
 Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 

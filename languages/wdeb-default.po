@@ -94,7 +94,7 @@ msgid "Page Attributes"
 msgstr ""
 
 #: lib/class_wdeb_admin_form_renderer.php:80
-msgid "<p>Show WordPress Admin bar in Easy mode.</p>"
+msgid "<p>Show ClassicPress Admin bar in Easy mode.</p>"
 msgstr ""
 
 #: lib/class_wdeb_admin_form_renderer.php:87
