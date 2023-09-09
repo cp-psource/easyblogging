@@ -4,7 +4,7 @@ Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free
 Tags: ecommerce, onlineshop, multisite
 Requires at least: 4.9
 Tested up to: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -33,7 +33,6 @@ Schaffe mit Easy Blogging eine Benutzererfahrung, die zu Deinem Kundenstamm pass
 Online Geld verdienen macht dieses mächtige Leichtgewicht von eCommerce Plugin im Nu Kinderleicht.
 
 [Projektseite](https://n3rds.work/piestingtal_source/easy-blogging-plugin/)
-[Handbuch](https://n3rds.work/docs/easy-blogging-handbuch/)
 [Supportforum](https://n3rds.work/forums/forum/psource-support-foren/easyblogging-supportforum/)
 [GitHub](https://github.com/piestingtal-source/easyblogging)
 
@@ -61,9 +60,13 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
+= 1.0.1 =
+
+* Update class_wdeb_admin_form_renderer.php
+* Remove 3rd parameter of a define
+* Replace create_function
+
 = 1.0.0 =
 
 * PhP8 Fix Admin Einstellungen
-
-= 1.0.0 =
 * Initial release

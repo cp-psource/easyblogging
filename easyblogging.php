@@ -3,13 +3,13 @@
 Plugin Name: Easy Blogging
 Plugin URI: https://n3rds.work/piestingtal_source/easy-blogging-plugin/
 Description: Ändert den ClassicPress-Verwaltungsbereich so, dass er standardmäßig einen "Anfänger" -Bereich enthält, mit der Option, zum normalen "Erweitert" -Bereich zu wechseln.
-Version: 1.0.0
+Version: 1.0.1
 Text Domain: wdeb
 Author: WMS N@W
 Author URI: https://n3rds.work
 
 
-Copyright 2020-2021 WMS N@W (https://n3rds.work)
+Copyright 2020-2023 WMS N@W (https://n3rds.work)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by
@@ -25,11 +25,13 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 require 'psource/psource-plugin-update/psource-plugin-updater.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+use Psource\PluginUpdateChecker\v5\PucFactory;
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=easyblogging', 
 	__FILE__, 
 	'easyblogging' 
 );
+
 
 define ('WDEB_PLUGIN_SELF_DIRNAME', basename(dirname(__FILE__)));
 
@@ -37,7 +39,7 @@ define ('WDEB_PLUGIN_SELF_DIRNAME', basename(dirname(__FILE__)));
 if (is_multisite() && defined('WPMU_PLUGIN_URL') && defined('WPMU_PLUGIN_DIR') && file_exists(WPMU_PLUGIN_DIR . '/' . basename(__FILE__))) {
 	define ('WDEB_PLUGIN_LOCATION', 'mu-plugins');
 	define ('WDEB_PLUGIN_BASE_DIR', WPMU_PLUGIN_DIR);
-	define ('WDEB_PLUGIN_URL', str_replace('http://', (@$_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WPMU_PLUGIN_URL), true);
+	define ('WDEB_PLUGIN_URL', str_replace('http://', (@$_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WPMU_PLUGIN_URL));
 	$textdomain_handler = 'load_muplugin_textdomain';
 } else if (defined('WP_PLUGIN_URL') && defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/' . WDEB_PLUGIN_SELF_DIRNAME . '/' . basename(__FILE__))) {
 	define ('WDEB_PLUGIN_LOCATION', 'subfolder-plugins');
