@@ -60,3 +60,7 @@ td.available-theme p.description, .appearance_page_premium-themes #current-theme
 #wpwrap #primary_left #logo {
     padding: 0px 0 20px 0px;
 }
+
+#wdeb_menu_items-new-icon-target img {
+  max-width: 150px;
+}
