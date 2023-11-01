@@ -55,7 +55,7 @@ function wdeb_expand_url ($url) {
 function wdeb_supporter_themes_enabled () {
 	if (class_exists('ProSites')) {
 		global $psts;
-		if ($psts && !empty($psts->version) && version_compare($psts->version, '3.3.3', '>=')) {
+		if ($psts && !empty($psts->version) && version_compare($psts->version, '1.0.0', '>=')) {
 			$has_themes = false;
 		} else {
 			$ps_modules = ProSites::get_setting('modules_enabled');
@@ -69,7 +69,7 @@ function wdeb_supporter_themes_enabled () {
 function wdeb_supporter_themes_not_enabled () {
 	if (class_exists('ProSites')) {
 		global $psts;
-		if ($psts && !empty($psts->version) && version_compare($psts->version, '3.3.3', '>=')) {
+		if ($psts && !empty($psts->version) && version_compare($psts->version, '1.0.0', '>=')) {
 			$has_themes = false;
 		} else {
 			$ps_modules = ProSites::get_setting('modules_enabled');
