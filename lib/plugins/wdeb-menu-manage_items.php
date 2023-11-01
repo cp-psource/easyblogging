@@ -369,6 +369,13 @@ class Wdeb_Menu_ManageMenuItems {
 				'<dt>LOGOUT_URL</dt>' .
 				'<dd>' . __('Eine saubere Abmelde-URL', 'wdeb') . '</dd>' .
 			'</dl>' .
+			'<p>' . __('Beispiele für "Mediathek":', 'wdeb') . '</p>' .
+			'<dl>' .
+				'<dt>https://BLOG_PATH/MEINE-DOMAIN/wp-admin/upload.php</dt>' .
+				'<dd>' . __('Pfad zur Mediathek bei Subdomains', 'wdeb') . '</dd>' .
+				'<dt>https://MEINE-DOMAIN/BLOG_PATH/wp-admin/upload.php</dt>' .
+				'<dd>' . __('Pfad zur Mediathek bei Subverzeichnis', 'wdeb') . '</dd>' .
+			'</dl>' .
 		'</div>';
 	}
 
