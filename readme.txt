@@ -67,6 +67,7 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 * README.md
 * Tooltip z-Indez verringert
 * Textanpassungen
+* Aktualisierte Sprachfiles
 
 = 1.0.1 =
 
