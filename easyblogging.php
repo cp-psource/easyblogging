@@ -3,7 +3,7 @@
 Plugin Name: Easy Blogging
 Plugin URI: https://n3rds.work/piestingtal_source/easy-blogging-plugin/
 Description: Ändert den ClassicPress-Verwaltungsbereich so, dass er standardmäßig einen "Anfänger" -Bereich enthält, mit der Option, zum normalen "Erweitert" -Bereich zu wechseln.
-Version: 1.0.1
+Version: 1.0.2
 Text Domain: wdeb
 Author: WMS N@W
 Author URI: https://n3rds.work
