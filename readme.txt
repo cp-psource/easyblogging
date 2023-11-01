@@ -60,6 +60,14 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
+= 1.0.2 =
+
+* + Hilfstext Custom-Menüs
+* Menu-Icon Vorschau angepasst
+* README.md
+* Tooltip z-Indez verringert
+* Textanpassungen
+
 = 1.0.1 =
 
 * Update class_wdeb_admin_form_renderer.php

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Easy Blogging\n"
-"POT-Creation-Date: 2023-09-09 21:16+0200\n"
-"PO-Revision-Date: 2023-09-09 21:28+0200\n"
+"POT-Creation-Date: 2023-11-01 12:44+0100\n"
+"PO-Revision-Date: 2023-11-01 12:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: easyblogging.php\n"
@@ -19,6 +19,7 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: psource/psource-plugin-update/vendor\n"
 
 #: easyblogging.php:57
 #, fuzzy
@@ -738,135 +739,142 @@ msgstr "URL"
 #: lib/help/edit-comments.php:4
 #, fuzzy
 msgid ""
-"Here you can edit, approve, delete or reply to comments on your blog posts. "
-"Click on tabs or select \"Filter\" to see only specific comments."
+"Hier kannst Du Kommentare zu Deinen Blogbeiträgen bearbeiten, genehmigen, "
+"löschen oder darauf antworten. Klicke auf Registerkarten oder wähle "
+"\"Filter\", um nur bestimmte Kommentare anzuzeigen."
 msgstr ""
 "Qui è possibile modificare, approvare, eliminare o rispondere ai commenti "
 "sui post del blog. Fate clic sulle schede o selezionate \"Filtro\" per "
-"vedere solo commenti specifici."
+"visualizzare solo alcuni commenti."
 
 #: lib/help/edit-comments.php:6
 #, fuzzy
-msgid "Here you can manage the comments that are on your blog"
-msgstr "Qui è possibile gestire i commenti presenti sul proprio blog"
+msgid ""
+"Hier kannst Du die Kommentare verwalten, die sich in Deinem Blog befinden"
+msgstr "Qui è possibile gestire i commenti presenti nel blog"
 
 #: lib/help/edit-page.php:4
 #, fuzzy
 msgid ""
-"Below is a list your pages. You can quickly see important information about "
-"them, as well as edit, delete, or view each one."
+"Nachfolgend findest Du eine Liste Deiner Seiten. Du kannst schnell wichtige "
+"Informationen zu ihnen anzeigen und diese bearbeiten, löschen oder anzeigen."
 msgstr ""
-"Di seguito è riportato un elenco delle vostre pagine. È possibile "
-"visualizzare rapidamente informazioni importanti su di esse, nonché "
-"modificare, eliminare o visualizzare ciascuna di esse."
+"Qui di seguito troverete un elenco delle vostre pagine. È possibile "
+"visualizzare rapidamente informazioni importanti su di esse e modificarle, "
+"eliminarle o visualizzarle."
 
 #: lib/help/edit-page.php:6
 #, fuzzy
-msgid "Here you can manage the pages that are on your blog"
-msgstr "Qui è possibile gestire le pagine del proprio blog"
+msgid "Hier kannst Du die Seiten verwalten, die sich in Deinem Blog befinden"
+msgstr "Qui è possibile gestire le pagine presenti nel blog"
 
 #: lib/help/edit-post.php:4
 #, fuzzy
 msgid ""
-"Below is a list your posts. You can quickly see important information about "
-"them, as well as edit, delete, or view each one."
+"Nachfolgend findest Du eine Liste Deiner Beiträge. Du kannst schnell "
+"wichtige Informationen zu ihnen anzeigen und diese bearbeiten, löschen oder "
+"anzeigen."
 msgstr ""
-"Di seguito è riportato un elenco dei vostri messaggi. È possibile "
-"visualizzare rapidamente informazioni importanti su di essi, nonché "
-"modificare, eliminare o visualizzare ciascuno di essi."
+"Qui di seguito troverete un elenco dei vostri messaggi. È possibile "
+"visualizzare rapidamente informazioni importanti su di essi e modificarli, "
+"cancellarli o visualizzarli."
 
 #: lib/help/edit-post.php:6
 #, fuzzy
-msgid "Here you can manage the posts that are on your blog"
-msgstr "Qui è possibile gestire i post presenti sul proprio blog"
+msgid "Hier kannst Du die Beiträge verwalten, die sich in Deinem Blog befinden"
+msgstr "Qui è possibile gestire i post presenti nel proprio blog"
 
 #: lib/help/page.php:4
 #, fuzzy
 msgid ""
-"Create a new \"static\" page below - this won't appear at the top of your "
-"latest posts."
+"Erstelle unten eine neue \"statische\" Seite – diese wird nicht oben in "
+"Deinen neuesten Beiträgen angezeigt."
 msgstr ""
-"Creare una nuova pagina \"statica\" in basso, che non apparirà in cima agli "
-"ultimi post."
+"Creare una nuova pagina \"statica\" in basso, che non verrà visualizzata in "
+"cima agli ultimi post."
 
 #: lib/help/page.php:5
 #, fuzzy
-msgid "Give your page a title here."
+msgid "Gib Deiner Seite hier einen Titel."
 msgstr "Date un titolo alla vostra pagina."
 
 #: lib/help/page.php:6
 #, fuzzy
 msgid ""
-"Write the content of your page, upload images or audio and choose if you "
-"want to use HTML (code) or Visual (like Word). You can paste in embed code "
-"for videos and widgets under the HTML tab."
+"Schreibe den Inhalt Deiner Seite, lade Bilder oder Audio hoch und wähle, ob "
+"Du HTML (Code) oder Visual (wie Word) verwenden möchtest. Unter der "
+"Registerkarte „HTML“ kannst Du Einbettungscode für Videos und Widgets "
+"einfügen."
 msgstr ""
 "Scrivete il contenuto della vostra pagina, caricate immagini o audio e "
-"scegliete se volete usare l'HTML (codice) o Visual (come Word). È possibile "
-"incollare il codice di incorporamento per i video e i widget nella scheda "
-"HTML."
+"scegliete se volete usare l'HTML (codice) o Visual (come Word). Nella scheda "
+"HTML è possibile inserire il codice embed per i video e i widget."
 
 #: lib/help/page.php:7
 #, fuzzy
 msgid ""
-"Publish your page or save it as a draft below. You can also make it private "
-"or schedule publication for the future by clicking on the \"Edit\" links."
+"Veröffentliche Deine Seite oder speichere sie unten als Entwurf. Du kannst "
+"es auch privat machen oder die Veröffentlichung für die Zukunft planen, "
+"indem Du auf den Link \"Bearbeiten\" klickst."
 msgstr ""
-"Pubblicate la vostra pagina o salvatela come bozza qui sotto. È anche "
-"possibile renderla privata o programmare la pubblicazione per il futuro "
-"facendo clic sui link \"Modifica\"."
+"Pubblicare la pagina o salvarla come bozza. È anche possibile renderla "
+"privata o programmarne la pubblicazione in futuro facendo clic sul link "
+"\"Modifica\"."
 
 #: lib/help/page.php:9
 #, fuzzy
 msgid ""
-"A page is a <em>stand-alone</em> item that does not appear at the top of "
-"your blog - e.g an <em>about page</em> or a page with contact details, a "
-"course outline or even a CV. Turn off comments for a professional look."
+"Eine Seite ist ein <em>eigenständiges</em> Element, das nicht oben in Deinem "
+"Blog erscheint – z.B. eine <em>Über Mich-Seite</em> oder eine Seite mit "
+"Kontaktdaten, einer Kursübersicht oder sogar einer LEBENSLAUF. Deaktiviere "
+"Kommentare für ein professionelles Erscheinungsbild."
 msgstr ""
 "Una pagina è un elemento <em>a sé stante</em> che non appare nella parte "
-"superiore del blog, ad esempio una <em>pagina di informazioni</em> o una "
-"pagina con i dettagli di contatto, la descrizione di un corso o persino un "
-"CV. Disattivate i commenti per ottenere un aspetto professionale."
+"superiore del blog, ad esempio una <em>pagina About Me</em> o una pagina con "
+"i dettagli di contatto, una panoramica dei corsi o anche una pagina LIFE. "
+"Disattivate i commenti per ottenere un aspetto professionale."
 
 #: lib/help/post.php:4
 #, fuzzy
-msgid "Write up a new post to appear at the top of your blog."
-msgstr "Scrivete un nuovo post da far apparire in cima al vostro blog."
+msgid "Schreibe einen neuen Beitrag, der oben in Deinem Blog erscheint."
+msgstr "Scrivete un nuovo post che apparirà in cima al vostro blog."
 
 #: lib/help/post.php:5
 #, fuzzy
-msgid "The best post titles are usually really descriptive."
+msgid "Die besten Beitragstitel sind normalerweise sehr beschreibend."
 msgstr "I migliori titoli dei post sono solitamente molto descrittivi."
 
 #: lib/help/post.php:6
 #, fuzzy
 msgid ""
-"Write the content of your post, upload images or audio and choose if you "
-"want to use HTML (code) or Visual (like Word). You can paste in embed code "
-"for videos and widgets under the HTML tab."
+"Schreibe den Inhalt Deines Beitrags, lade Bilder oder Audio hoch und wähle, "
+"ob Du HTML (Code) oder Visual (wie Word) verwenden möchtest. Unter der "
+"Registerkarte „HTML“ kannst Du Einbettungscode für Videos und Widgets "
+"einfügen."
 msgstr ""
 "Scrivete il contenuto del vostro post, caricate immagini o audio e scegliete "
-"se volete usare l'HTML (codice) o il Visual (come Word). È possibile "
-"incollare il codice di incorporamento per i video e i widget nella scheda "
-"HTML."
+"se volete usare l'HTML (codice) o il Visual (come Word). Nella scheda HTML è "
+"possibile inserire il codice embed per i video e i widget."
 
 #: lib/help/post.php:7
 #, fuzzy
 msgid ""
-"You can save your post as a draft or make it private by clicking on \"Edit\" "
-"next to \"Visibility\" below. You can also schedule posts to publish in the "
-"future by clicking \"Edit\" next to \"Immediately\". "
+"Du kannst Deinen Beitrag als Entwurf speichern oder ihn privat machen, indem "
+"Du unten neben „Sichtbarkeit“ auf „Bearbeiten“ klickst. Du kannst auch die "
+"zukünftige Veröffentlichung von Beiträgen planen, indem Du neben \"Sofort\" "
+"auf \"Bearbeiten\" klickst. "
 msgstr ""
 "È possibile salvare il post come bozza o renderlo privato facendo clic su "
-"\"Modifica\" accanto a \"Visibilità\". È anche possibile programmare la "
-"pubblicazione dei post in futuro facendo clic su \"Modifica\" accanto a "
-"\"Immediatamente\"."
+"\"Modifica\" accanto a \"Visibilità\" in basso. È inoltre possibile "
+"programmare la pubblicazione futura dei post facendo clic su \"Modifica\" "
+"accanto a \"Immediato\"."
 
 #: lib/help/post.php:8
 #, fuzzy
 msgid ""
-"Tags are a great way to help search engines find your posts, or to help you "
-"organize your content. Add as many as you can!"
+"Tags sind eine großartige Möglichkeit, Suchmaschinen dabei zu helfen, Deine "
+"Beiträge zu finden oder Dir bei der Organisation Deiner Inhalte zu helfen. "
+"Füge so viele hinzu, wie Du kannst!"
 msgstr ""
 "I tag sono un ottimo modo per aiutare i motori di ricerca a trovare i vostri "
 "post o per aiutarvi a organizzare i vostri contenuti. Aggiungetene il più "
@@ -875,18 +883,21 @@ msgstr ""
 #: lib/help/post.php:9
 #, fuzzy
 msgid ""
-"Categories are more serious than tags. They are the main themes of your blog."
+"Kategorien sind ernster als Tags. Sie sind die Hauptthemen Deines Blogs."
 msgstr ""
-"Le categorie sono più serie dei tag. Sono i temi principali del vostro blog."
+"Le categorie sono più serie dei tag. Sono gli argomenti principali del "
+"vostro blog."
 
 #: lib/help/post.php:11
 #, fuzzy
-msgid "A long string of help here"
+msgid "Eine lange Reihe von Hilfe hier"
 msgstr "Una lunga serie di aiuti qui"
 
 #: lib/help/themes.php:4
 #, fuzzy
-msgid "Change the design of your blog, preview and activate new themes."
+msgid ""
+"Ändere das Design Deines Blogs, zeige eine Vorschau an und aktiviere neue "
+"Themes."
 msgstr ""
 "Modificate il design del vostro blog, visualizzate in anteprima e attivate "
 "nuovi temi."
@@ -894,39 +905,41 @@ msgstr ""
 #: lib/help/themes.php:5
 #, fuzzy
 msgid ""
-"This is the design that you are currently using for your blog. If you would "
-"like to change it, you can choose from the Available Themes below"
+"Dies ist das Design, das Du derzeit für Deinen Blog verwendest. Wenn Du es "
+"ändern möchtest, kannst Du unten aus den verfügbaren Designs auswählen"
 msgstr ""
-"Questo è il design che state utilizzando attualmente per il vostro blog. Se "
-"desiderate cambiarlo, potete scegliere tra i Temi disponibili qui sotto"
+"Questo è il tema che state utilizzando attualmente per il vostro blog. Se "
+"volete cambiarlo, potete scegliere tra i temi disponibili qui sotto"
 
 #: lib/help/themes.php:6
 #, fuzzy
 msgid ""
-"You can choose any of these designs, and your blog will be automatically "
-"updated to look like this. Simply click on any of the images to preview what "
-"your blog will look like with that design."
+"Du kannst eines dieser Designs auswählen und Dein Blog wird automatisch so "
+"aktualisiert, dass er wie folgt aussieht. Klicke einfach auf eines der "
+"Bilder, um eine Vorschau zu erhalten, wie Dein Blog mit diesem Design "
+"aussehen wird."
 msgstr ""
-"Potete scegliere uno qualsiasi di questi design e il vostro blog verrà "
-"automaticamente aggiornato in questo modo. È sufficiente fare clic su una "
-"qualsiasi delle immagini per visualizzare un'anteprima dell'aspetto del "
-"vostro blog con quel design."
+"Potete scegliere uno di questi design e il vostro blog verrà automaticamente "
+"aggiornato in questo modo. Cliccate su una delle immagini per avere "
+"un'anteprima dell'aspetto del vostro blog con questo design."
 
 #: lib/help/themes.php:8
 #, fuzzy
-msgid "Here you can change your blog's theme"
-msgstr "Qui è possibile modificare il tema del blog"
+msgid "Hier kannst Du das Theme Deines Blogs ändern"
+msgstr "Qui potete cambiare il tema del vostro blog"
 
 #: lib/help/widgets.php:4
 #, fuzzy
-msgid "To add elements to the sidebar of your blog drag and drop them below."
+msgid ""
+"Um Elemente zur Seitenleiste Deines Blogs hinzuzufügen, ziehe sie per Drag & "
+"Drop nach unten."
 msgstr ""
-"Per aggiungere elementi alla barra laterale del vostro blog, trascinateli "
-"qui sotto."
+"Per aggiungere elementi alla barra laterale del blog, trascinarli e "
+"rilasciarli."
 
 #: lib/help/widgets.php:6
 #, fuzzy
-msgid "Here you can customize what shows up in your sidebar"
+msgid "Hier kannst Du anpassen, was in Deiner Seitenleiste angezeigt wird"
 msgstr ""
 "Qui si può personalizzare ciò che viene visualizzato nella barra laterale"
 
@@ -1110,7 +1123,22 @@ msgstr "Il vostro attuale percorso del blog"
 msgid "Eine saubere Abmelde-URL"
 msgstr "Un URL di cancellazione pulito"
 
-#: lib/plugins/wdeb-menu-manage_items.php:376
+#: lib/plugins/wdeb-menu-manage_items.php:372
+#, fuzzy
+msgid "Beispiele für \"Mediathek\":"
+msgstr "Esempi di \"mediateca"
+
+#: lib/plugins/wdeb-menu-manage_items.php:375
+#, fuzzy
+msgid "Pfad zur Mediathek bei Subdomains"
+msgstr "Percorso della mediateca per i sottodomini"
+
+#: lib/plugins/wdeb-menu-manage_items.php:377
+#, fuzzy
+msgid "Pfad zur Mediathek bei Subverzeichnis"
+msgstr "Percorso della mediateca per la sottodirectory"
+
+#: lib/plugins/wdeb-menu-manage_items.php:383
 #, fuzzy
 msgid ""
 "Verwende die folgenden Schaltflächen, um einige Aspekte Deiner Anpassung auf "
@@ -1119,22 +1147,22 @@ msgstr ""
 "Utilizzate i seguenti pulsanti per ripristinare alcuni aspetti della vostra "
 "personalizzazione alle impostazioni predefinite"
 
-#: lib/plugins/wdeb-menu-manage_items.php:377
+#: lib/plugins/wdeb-menu-manage_items.php:384
 #, fuzzy
 msgid "Menüreihenfolge zurücksetzen"
 msgstr "Azzeramento della sequenza di menu"
 
-#: lib/plugins/wdeb-menu-manage_items.php:379
+#: lib/plugins/wdeb-menu-manage_items.php:386
 #, fuzzy
 msgid "Neue Menüpunkte zurücksetzen"
 msgstr "Azzeramento delle nuove voci di menu"
 
-#: lib/plugins/wdeb-menu-manage_items.php:381
+#: lib/plugins/wdeb-menu-manage_items.php:388
 #, fuzzy
 msgid "Alles zurücksetzen"
 msgstr "Resettare tutto"
 
-#: lib/plugins/wdeb-menu-manage_items.php:391
+#: lib/plugins/wdeb-menu-manage_items.php:398
 #, fuzzy
 msgid ""
 "Warnung: Dadurch werden alle Deine benutzerdefinierten Bestellungen entfernt "
@@ -1143,7 +1171,7 @@ msgstr ""
 "Attenzione: questa operazione rimuoverà tutti gli ordini personalizzati e li "
 "riporterà alle impostazioni predefinite. Continuare?"
 
-#: lib/plugins/wdeb-menu-manage_items.php:392
+#: lib/plugins/wdeb-menu-manage_items.php:399
 #, fuzzy
 msgid ""
 "Warnung: Dadurch werden alle neuen Menüelemente entfernt, die Du hinzugefügt "
@@ -1152,7 +1180,7 @@ msgstr ""
 "Attenzione: questa operazione rimuoverà tutte le nuove voci di menu "
 "aggiunte. Continuare?"
 
-#: lib/plugins/wdeb-menu-manage_items.php:393
+#: lib/plugins/wdeb-menu-manage_items.php:400
 #, fuzzy
 msgid "Warnung: Dadurch werden alle Anpassungen entfernt. Fortsetzen?"
 msgstr ""
